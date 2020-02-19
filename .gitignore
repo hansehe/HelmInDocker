@@ -45,6 +45,8 @@ __pycache__/
 .vscode/
 .idea/
 output/
+test/
+*.tgz
 
 docker-compose.build.*.yml
 docker-compose.publish.*.yml

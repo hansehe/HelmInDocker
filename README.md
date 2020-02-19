@@ -1,8 +1,8 @@
 # Helm In Docker
 
-Package helm charts with docker!
+Package, install and upgrade helm charts with docker!
 
-The [hansehe/helm](https://hub.docker.com/repository/docker/hansehe/helm) image includes helm and kubectl binaries, and makes it possible to package, install and update helm charts inside of a container.
+The [hansehe/helm](https://hub.docker.com/repository/docker/hansehe/helm) image includes helm and kubectl binaries, and makes it possible to package, install and upgrade helm charts inside of a container.
 In addition, it is built on top of the [python](https://hub.docker.com/_/python) docker image, so that it is possible to execute a python script instead of a shell script.
 
 ## Example

@@ -31,6 +31,7 @@ docker run -it -v $PWD/charts/:/charts -w /charts hansehe/helm helm install my-h
 Change kubectl config in [./charts/.kube/config](./charts/.kube/config) with your own kube config.
 Usually you can find your personal kube config with docker desktop on windows at:
 - C:\\Users\\my-user\\.kube\\config
+
 Note! It is possible to execute a [python](https://www.python.org/) script instead if a shell script.
 ```
 docker run -it -v $PWD/charts/:/charts -w /charts hansehe/helm ./install.sh
